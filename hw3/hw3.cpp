@@ -35,10 +35,10 @@ int main()
     int d, e;
     std::cout << "Whrite 2 numbers: ";
     std::cin >> d >> e;
-    std::cout << "First less than secon? " << bool(d < e) << std::boolalpha << std::endl;
-    std::cout << "First equal secon? " << bool(d == e) << std::boolalpha << std::endl;
-    std::cout << "First more than secon? " << bool(d > e) << std::boolalpha << std::endl;
-    std::cout << "First lessOr equal secon? " << bool(d <= e) << std::boolalpha << std::endl;
+    std::cout << "First less than secon? " << (d < e) << std::boolalpha << std::endl;
+    std::cout << "First equal secon? " << (d == e) << std::boolalpha << std::endl;
+    std::cout << "First more than secon? " << (d > e) << std::boolalpha << std::endl;
+    std::cout << "First less Or equal secon? " << (d <= e) << std::boolalpha << std::endl;
 
     std::cout << "Hw 4.\n";
      
@@ -52,10 +52,11 @@ int main()
     std::cout << "Hw 5.\n";
 
     double r;
+    const float pi = 3.141592;
     std::cout << "Whrite circle radius: ";
     std::cin >> r;
-    std::cout << "Area of the circle: " << 3.14 *(pow(r, 2)) << std::endl;
-    std::cout << "Lenght of the circle: " << 3.14 *2 * r << std::endl;
+    std::cout << "Area of the circle: " << pi *(pow(r, 2)) << std::endl;
+    std::cout << "Lenght of the circle: " << pi *2 * r << std::endl;
 
 
 }
